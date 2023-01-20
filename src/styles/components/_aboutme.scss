@@ -1,0 +1,173 @@
+.About
+{
+    background-color: #fdfdfd;
+    width: 100%;
+    height: 60rem;
+
+    .About__container
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 80%;
+        margin: 0 auto;
+        height: 100%;
+
+
+    }
+}
+
+
+.About__container__heading
+{
+    @include flex;
+    flex-direction: column ;
+    padding: 2.5rem 0;
+    padding-top: 3rem;
+    .About__container__heading__main
+    {
+        font-size: 3rem;
+        font-weight: 600;
+        color: #333;
+        text-align: center;
+    }
+
+
+}
+
+.About__container__text__wrapper
+
+{
+    width: 100%;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+    @include flex;
+    height: 80%;
+
+    .about--text
+    {
+        width: 50%;
+        @include flex;
+        height: 100%;
+        justify-content: flex-start;
+        flex-direction: column;
+
+        p{
+            font-size: 1.6rem;
+            margin: 2rem 0;
+            font-weight: 500;
+        }
+    }
+
+    .about--image 
+    {
+       width: 50%;
+       height: 100%;
+       text-align: right;
+    }
+}
+
+.personalpic 
+{
+    width: auto;
+    height: 100%;
+}
+////////////////////////////////////////////////////////////////////////////
+@media only screen and (max-width:1300px) and (min-width:950px)
+{
+    .About__container__text__wrapper
+    {
+        .about--text
+        {
+            width: 60%;
+        }
+
+        .about--image 
+        {
+            margin: auto;
+            padding-left: 5rem;
+            padding-top: 0rem;
+            width: 40%;
+            height: 100%;
+            @include flex;
+            
+            .personalpic 
+                {
+                    width: 100%;
+                    height: auto;
+                }
+
+        }
+    }
+    
+}
+
+///////////////////////////////////////////////////////////////
+@media only screen and (max-width:950px) and (min-width:600px)
+{
+    .About
+    {
+        height: fit-content;
+        .About__container
+        {
+            max-width: 90%;           
+        }
+    }
+    .About__container__text__wrapper
+    {
+        flex-direction: column-reverse;
+        .about--text
+        {
+            width: 70%;
+            padding: 2rem;
+        }
+        .about--image 
+        {
+           text-align: center;
+           width: 50%;
+            .personalpic 
+            {
+                width: 100%;
+                height: auto;
+            }
+
+        }
+    }
+   
+}
+/////////////////////////////////////////////////////////////
+
+@media only screen and (max-width:600px)
+{
+    .About
+    {
+        height: fit-content;
+        .About__container
+        {
+            max-width: 90%;           
+        }
+    }
+   
+    .About__container__text__wrapper
+    {
+        flex-direction: column-reverse;
+        .about--text
+        {
+            width: 80%;
+            padding: 2rem;
+        }
+        .about--image 
+        {
+           text-align: center;
+           width: 70%;
+
+           .personalpic
+           {
+               width: 80%;
+               height: auto;
+           }
+        }
+    }
+   
+}
