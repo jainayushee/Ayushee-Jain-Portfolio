@@ -1,5 +1,5 @@
 import React from 'react';
-import hero from '../../src/images/hero.svg'
+import hero from '../../src/images/heroo.png'
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
 
@@ -10,13 +10,11 @@ const Header = () => {
 
                 <div className='header__container--text'>
                     <Fade>
-                        <h1 className='heading'> Hey there! I'm <span className='name'> Ayushee Jain </span> </h1>
+                    <h2>Hi there! I’m <span class="header_highlight">Ayushee Jain</span></h2>              
+                
                     </Fade>
                     <Zoom delay={500}>
-                        <p className='subheading'>A Front End Developer and  programmer from India</p>
-                        <div className='links'>
-                            <a className='links_1' target="_blank" >Resume</a>
-                        </div>
+                    <p className='subheading'>An engineer and programmer from India, on a journey to become a better one.</p>
                     </Zoom>
                 </div>
                 <Fade right>

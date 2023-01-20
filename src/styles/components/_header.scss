@@ -1,193 +1,174 @@
-.header__container
-{
-    max-width: 85%;
+.header__container {
+    max-width: 90%;
     margin: 0 auto;
     min-height: calc(100% - 80px);
     @include flex;
 
-
-    .header__container__box
-    {
+    .header__container__box {
         display: flex;
         align-items: center;
-        justify-content: flex-start;
+        justify-content: center;
         min-height: 100%;
 
     }
 }
 
-.header__container--text
-{
+.header__container--text {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    padding: 2rem 3rem;
-    width: 50%;
-    .heading
-    {
-        font-size: 4.5rem;
+    justify-content: center;
+    align-items: center;
+
+    .header_highlight {
+        font-size: 3.5rem;
+        color: #64ffda;
         font-weight: 400;
     }
-    .name 
-    {
-        font-weight: 700;
-    }
-    .subheading{
+
+    .subheading {
         font-size: 1.7rem;
-        color: #aaa;
-        padding: 2rem 0;
+
         margin-bottom: 2rem;
+        text-align: center;
     }
 
-    .links
-    {
-        .links_1
-            {
-                background-color:  $button-blue;
-                color:$white;
-            }
+    .links {
+        .links_1 {
+            background-color: $button-blue;
+            color: $white;
+        }
 
-    
+
     }
-    
-    a{
+
+    a {
         text-decoration: none;
         font-size: 1.3rem;
         padding: 1rem 2rem;
         border-radius: 0.3rem;
         font-weight: 500;
         box-shadow: 0px 2px 3px #ccc;
-        
+
     }
 
 }
 
 
-.header__container--image
-{
+.header__container--image {
     padding-left: 8rem;
     padding-top: 2rem;
     z-index: 2;
-    height: 100%;
+    height: 90%;
     width: 50%;
-} 
-img 
-{
-    width: 100%;
-    height: 100%;
 }
+
+img {
+    width: 80%;
+    height: 80%;
+}
+
 //////////////////////////////////////////////////////////////////////////
-@media only screen and (max-width:1300px) and (min-width:1150px)
-{
-    .header__container--text
-    {
+@media only screen and (max-width:1300px) and (min-width:1150px) {
+    .header__container--text {
         width: 60%;
     }
 
-    .header__container--image
-   {
-       margin: auto;
-       padding-left: 5rem;
-       padding-top: 0rem;
-        img 
-        {
+    .header__container--image {
+        margin: auto;
+        padding-left: 5rem;
+        padding-top: 0rem;
+
+        img {
             width: 100%;
         }
 
-   }
-}
-/////////////////////////////////////////////////////////////////////////////
-@media only screen and (max-width:850px) and (min-width:600px)
-{
-    .header__container
-    {
-        max-width: 90%;
-        .header__container__box
-       {
-           flex-direction: column-reverse;
-       }
     }
-    .header__container--text
-    {
+}
+
+/////////////////////////////////////////////////////////////////////////////
+@media only screen and (max-width:850px) and (min-width:600px) {
+    .header__container {
+        max-width: 90%;
+
+        .header__container__box {
+            flex-direction: column-reverse;
+        }
+    }
+
+    .header__container--text {
         width: 100%;
         text-align: center;
 
-        h1
-        {
+        h1 {
             font-size: 4.5rem;
             font-weight: 500;
         }
     }
-    .header__container--image
-   {
-       margin: auto;
-       padding-left: 5rem;
-       padding-top: 0rem;
-        img 
-        {
+
+    .header__container--image {
+        margin: auto;
+        padding-left: 5rem;
+        padding-top: 0rem;
+
+        img {
             width: 100%;
         }
 
-   }
-    .header__container--text
-    {
+    }
 
-        .links
-        {
+    .header__container--text {
+
+        .links {
             display: flex;
             justify-content: center;
-            .links_1
-            {
+
+            .links_1 {
                 width: 25%;
                 text-align: center;
             }
 
-        
+
         }
     }
-   
+
 }
+
 /////////////////////////////////////////////////////////////
-@media only screen and (max-width:600px)
-{
-   .header__container
-   {
-       max-width: 100%;
-       .header__container__box
-       {
-           flex-direction: column-reverse;
-       }
-   }
+@media only screen and (max-width:600px) {
+    .header__container {
+        max-width: 100%;
 
-   .header__container--text
-   {
-       width: 100%;
-       margin-top: 5rem;
+        .header__container__box {
+            flex-direction: column-reverse;
+        }
+    }
 
-       h1
-       {
-           text-align: center;
-           font-size: 3rem;
-       }
+    .header__container--text {
+        width: 100%;
+        margin-top: 5rem;
 
-       p 
-       {
-           font-size: 1.5rem;
-           text-align: center;
-       }
-       .links
-       {
-           text-align: center;
-       }
-   }
-   .header__container--image
-   {
-       padding: 0;
-       margin: auto;
-        img 
-        {
+        h1 {
+            text-align: center;
+            font-size: 3rem;
+        }
+
+        p {
+            font-size: 1.5rem;
+            text-align: center;
+        }
+
+        .links {
+            text-align: center;
+        }
+    }
+
+    .header__container--image {
+        padding: 0;
+        margin: auto;
+
+        img {
             width: 100%;
         }
 
-   }
+    }
 }

@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
 
 import Header from './header'
-import Intro from './about'
 import Navbar from './navbar'
+import Projects from './projects'
 import Footer from './footer'
 
 const Home = () => {
@@ -10,8 +10,7 @@ const Home = () => {
         <Fragment>
             <Navbar />
             <Header />
-        
-            <Intro />
+            <Projects />
             <Footer />
         </Fragment>
     )
