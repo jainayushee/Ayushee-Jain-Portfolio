@@ -4,13 +4,11 @@ const Footer = () => {
     return (
         <div className='footer'>
             <div className='container'>
-                <h2 className='footer__heading'>Let's Connect </h2>
+                <h1 className='footer__heading'>Get in touch!</h1>
                 <div className='social-links'>
-                    <a href="" target="_blank"><i className="devicon-github-original"></i></a>
-                    <a href="" target="_blank"> <i className="devicon-twitter-original"></i></a>
-                    <a href="" target="_blank"><i className="devicon-linkedin-plain"></i></a>
-                </div>
-                <hr />
+                    <a href="https://github.com/jainayushee" target="_blank"><i className="devicon-github-original"></i></a>
+                    <a href="https://www.linkedin.com/in/ayushee-jain-a5366114b/" target="_blank"><i className="devicon-linkedin-plain"></i></a>                    
+                </div>               
                 <p className="footer__text">© 2022 - Made with Love</p>
             </div>
         </div>

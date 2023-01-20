@@ -1,7 +1,12 @@
-@import '../styles/utils/mixins.scss';
-@import '../styles/utils/variables';
-@import '../styles/components/navbar';
-@import '../styles/components/footer';
-@import '../styles/components/header';
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
 @import '../styles/base/base';
+@import '../styles/utils/mixins';
+@import '../styles/utils/variables';
+@import '../styles/components/stackpill';
+@import '../styles/components/header';
 @import '../styles/components/aboutme';
+@import '../styles/components/navbar';
+@import '../styles/components/projects';
+@import '../styles/components/footer';
+@import '../styles/components/projectinfo';

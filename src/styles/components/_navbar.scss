@@ -1,6 +1,6 @@
 .navbar
 {
-    max-width: 80%;
+    max-width: 95%;
     margin: 0 auto;
     
 
@@ -14,12 +14,12 @@
 
         .navbar--left
         {
-            font-size: 2.6rem;
-            font-weight: 600;
-            a{
-                text-decoration: none;
-                color: #333;
-
+            
+           
+            img {
+                width: 50px;
+                border-radius: 30%;
+                height: 50px;
             }
         }
     }
@@ -35,17 +35,18 @@
         text-decoration: none;
         list-style: none;
         padding: 3rem ;
-        font-size: 1.4rem;  
+        font-size: 1.5rem;  
         font-weight: 500;
         text-transform: uppercase;
         cursor: pointer;
         a 
         {
             text-decoration: none;
-            color: #808080;   
+            color: #ccd6f6;      
 
         }
     }
+    
 }
 
 .hamburger
@@ -72,13 +73,7 @@
     {
         min-width: 95% !important;
         padding: 2rem 1rem;
-        .navbar_container
-        {
-            .navbar--left
-            {
-                font-size: 2rem;
-            }
-        }
+      
         
         
         .navbar--right__links
