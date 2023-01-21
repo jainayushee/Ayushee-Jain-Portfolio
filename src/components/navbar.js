@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-scroll'
-import logo from '../../src/images/logo2.png'
+import logo from '../../src/images/logo.png'
 
 const Navbar = () => {
     const [toggle, setToggle] = useState(1);

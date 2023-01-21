@@ -1,5 +1,5 @@
 import React from 'react';
-import hero from '../../src/images/heroo.png'
+import hero from '../../src/images/hero.png'
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
 
