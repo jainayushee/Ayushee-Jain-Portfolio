@@ -1,7 +1,7 @@
 const videoProjects = [
 
     {
-        "path": "/images/airline.png",
+        "path": "/images/titanic.png",
         "title": "Tic Tac Toe",
         "description": "A simple tic tac toe application built using Android Studio.",
         "live": "https://drive.google.com/file/d/1PnEisgV55-InnC2CP5GvkvIgjdyNPXgj/preview",
@@ -10,9 +10,9 @@ const videoProjects = [
     },
     {
         "path": "/images/airline.png",
-        "title": "Text To Speech",
-        "description": "An android application converting text to speech using the TextToSpeech android package.",
-        "code": "https://github.com/jainayushee/mobileTextToSpeech",
+        "title": "To Do List",
+        "description": "A simple to do list application build using Android Studio and SQLite.",
+        "code": "https://github.com/jainayushee/To-Do-List",
         "live": "https://drive.google.com/file/d/1PXgrveKJySuIkS7d5xkzWkj42b79hdT0/preview",
         "pill": "Android Studio"
 
