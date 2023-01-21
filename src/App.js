@@ -1,17 +1,18 @@
+import React from 'react'
 import Home from '../src/components/home'
 import '../src/styles/bootstrap.min.css'
-import "./styles/styles.scss";
+import './styles/styles.scss'
 
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
-function App() {
+function App () {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} exact={true} />
+        <Route path='/' element={<Home />} exact />
       </Routes>
     </BrowserRouter>
-  );
+  )
 }
 
-export default App;
+export default App
