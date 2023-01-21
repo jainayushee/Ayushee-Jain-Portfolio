@@ -1,0 +1,233 @@
+.Container
+{
+    padding: 3rem 2rem;
+    @include flex;
+    max-width: 85%;
+    margin: 5rem auto 0 auto;
+    flex-direction: column;
+    width: 100%;
+}
+
+.project__container__heading
+{
+    @include flex;
+    flex-direction: column;
+
+    .project__container__heading__main
+    {
+        font-size: 3rem;
+        font-weight: 600;
+    }
+
+    .project__container__heading__sub
+    {
+        text-align: center;
+        padding: 2rem 2rem 4rem 2rem;
+        font-size: 1.8rem;
+    }
+}
+
+.list 
+{
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.projectwrapper
+{
+    margin: 1.5rem 1rem;
+    border: 0 solid #e2e8f0;
+    border-radius: 0.5rem;
+    height: fit-content;
+    padding: 0;
+    cursor: pointer;
+    background-color: #233554
+
+}   
+.projectimagecontainer
+{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    position: relative;  
+}
+
+
+
+.project__image
+{
+    height: auto;
+    width: 100%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.projectimagecontainer:before {
+    position:absolute;
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.projectimagecontainer:before {
+    content: attr(data-content);
+    width:100%;
+    z-index:2;
+    bottom:0;
+    padding:2.5rem 1rem;
+    text-align:center;
+    background:rgba(0, 0, 0, 0.5);
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+.projectwrapper:hover .projectimagecontainer
+{
+    background: rgba(0,0,0,0.3);
+}
+.projectwrapper:hover .projectimagecontainer:before {
+    opacity:1;
+}
+//////////////////Links////////////////////////////////////////
+.popupbuttons
+{
+        padding: 1rem;
+        position: absolute;
+        bottom: 0.8rem;
+        width: 5rem;
+        border: 1px solid #333;
+        text-align: center;
+        display: none;
+        text-decoration: none;
+        font-weight: 600;
+        margin: 0 1rem;
+}
+
+.projectwrapper:hover a
+{
+    display: block;
+    text-decoration: none;
+    z-index: 2;
+    opacity: 1;
+    border: 1px solid #333;
+    border-radius: 0.2rem;
+    border:none;
+    margin-right: 1rem;
+    color: #e2e8f0;
+
+}
+
+.code 
+{
+    left: 30%;
+    margin-right: 1rem;
+
+}
+.live
+{
+    left: 50%;
+}
+////////////////////////////////////////////////////
+.projectdetailscontainer
+{
+    height: 16rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    padding-top: 1rem;
+    position: relative;
+
+    .project__title
+    {
+        padding: 1rem 2rem;
+        font-weight: 600;
+        
+    }
+
+    .project__description 
+    {
+        padding: 0 2rem;
+        font-size: 1.4rem;
+        font-weight: 500;
+        line-height: 2.3rem;
+    }
+
+}
+
+/////////////Video///////////////////////////
+.videowrapper
+{
+    .videocontainer
+    {
+        height: 20rem;
+
+        .project__image
+        {
+            height: 100%;
+        }
+
+        .popupbuttons
+        {
+            width: 10rem;
+            left: 33%;
+        }
+    }
+    .projectdetailscontainer
+    {
+        .project__title
+        {
+            font-size: 1.8rem;
+        }
+
+        .project__description
+        {
+            font-size: 1.35rem;
+        }
+    }
+}
+
+/////////////////////////////////////////////////////
+@media only screen and (max-width:500px) 
+
+{
+    .projectdetailscontainer 
+    {
+        .project__description
+        {
+            font-size: 1.35rem;
+        }
+        .project__title
+        {
+            font-size: 1.7rem;
+        }
+    }
+
+    .code 
+    {
+        left: 25%;
+        margin-right: 1rem;
+    }
+    .live
+    {
+        left: 55%;
+    }
+
+    .videowrapper
+    {
+        .projectdetailscontainer
+        {
+            height: 20rem;
+            font-size: 1.2rem !important;
+        }
+
+        
+    }
+}
+
+@media only screen and (max-width:300px) 
+
+{
+    .projectwrapper 
+    {
+        height: fit-content;
+    }
+}

@@ -1,0 +1,46 @@
+.infowrapper
+{
+    @include flex;
+    flex-direction: column;
+    padding: 2rem 0;
+    max-width: 100%;
+    .infowrapper__heading
+    {
+        @include flex;
+        flex-direction: column;
+
+        h1 
+        {
+            font-size: 3rem;
+            font-weight: 600;
+        }
+
+        h3
+        {
+            font-size: 2rem;
+            margin: 0.5rem 0;
+        }
+    }
+    .infowrapper__description
+    {
+        @include flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+        align-items: flex-start;
+        padding: 2rem 0 ;
+        h2 
+        {
+            font-size: 2.4rem;
+            padding: 1.5rem 0;
+            font-weight: 600;
+        }
+        p {
+            font-size: 1.5rem;
+        }
+
+        a {
+            font-size: 1.5rem;
+        }
+    }
+}
