@@ -17,14 +17,22 @@ const project = [
     pill: 'React/ Rapid API'
 
   },
-  {
-    path: '/images/phonebook.png',
-    title: 'Phonebook',
-    description: 'A simple phonebook app, build using Angular.',
-    code: 'https://github.com/jainayushee/phone-book',
-    demo: '#',
-    pill: 'Angular'
+  // {
+  //   path: '/images/phonebook.png',
+  //   title: 'Phonebook',
+  //   description: 'A simple phonebook app, build using Angular.',
+  //   code: 'https://github.com/jainayushee/phone-book',
+  //   demo: '#',
+  //   pill: 'Angular'
 
+  // },
+  {
+    path: '/images/sunny.png',
+    title: 'Sunnyside <br/> Landing Page',
+    description: 'A landing page concept built using React-Typescript and TailwindCSS',
+    code: 'https://github.com/jainayushee/sunny-agency-landing-page',
+    demo: 'https://sunny-side-agency-mentor.netlify.app/',
+    pill: 'TailwindCSS'
   },
   {
     path: '/images/titanic.png',
