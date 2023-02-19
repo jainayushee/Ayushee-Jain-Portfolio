@@ -4,7 +4,7 @@ const project = [
     path: '/images/airline.png',
     title: 'Airlines',
     description: 'An airline reservation system built using ASP.NET & Angular.',
-    code: 'https://github.com/jainayushee/airline-landing-page',
+    code: 'https://github.com/jainayushee3/AirlineReservation_Angular',
     demo: 'http://angula48998r.s3-website.ap-south-1.amazonaws.com/',
     pill: '.NET/Angular'
   },
@@ -48,6 +48,14 @@ const project = [
     description: 'An attempt to analyse cancer data, and predict malignant or benign tumors.',
     code: 'https://github.com/jainayushee/Breast-Cancer-Classification-Model',
     demo: 'https://jainayushee.hashnode.dev/breast-cancer-classification-using-logistic-regression',
+    pill: 'Python'
+  },
+  {
+    path: '/images/image_processing.jpg',
+    title: 'Image processing <br/> for Deep Learning',
+    description: 'Explored image processing techniques using Pillow and OpenCV libraries.',
+    code: 'https://github.com/jainayushee/Image-Processing-in-Python',
+    demo: '',
     pill: 'Python'
   }
 ]
