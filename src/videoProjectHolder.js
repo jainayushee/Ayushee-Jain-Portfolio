@@ -30,7 +30,7 @@ const videoProjects = [
     path: '/images/airline.png',
     title: 'IOT Enabled Kitchen Trolley System',
     description: 'Monitors the real time quantity of Ingredients and notifies user when quantity falls below threshold',
-    live: 'https://drive.google.com/file/d/1MN_vtPYZLgQ-UIIQw-jmdch5K9WVyAsG/preview'
+    live: 'https://drive.google.com/file/d/1SrmCwyqhP8BfJLcoApcwXTmrCKpv-SCC/preview'
   }
 ]
 
