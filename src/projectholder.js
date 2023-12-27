@@ -1,30 +1,12 @@
 const project = [
 
-  {
-    path: '/images/airline.png',
-    title: 'Airlines',
-    description: 'An airline reservation system built using ASP.NET & Angular.',
-    code: 'https://github.com/jainayushee3/AirlineReservation_Angular',
-    demo: 'http://angula48998r.s3-website.ap-south-1.amazonaws.com/',
-    pill: '.NET/Angular'
-  },
-  {
-    path: '/images/weather.png',
-    title: 'Weather App',
-    description: 'A simple React 18 - Typescript weather app, build using react-bootstrap components. It utilizes the Rapid API to gather current data.',
-    code: 'https://github.com/jainayushee/weather-app',
-    demo: 'https://rapid-weather.netlify.app/',
-    pill: 'React/ Rapid API'
-
-  },
   // {
-  //   path: '/images/phonebook.png',
-  //   title: 'Phonebook',
-  //   description: 'A simple phonebook app, build using Angular.',
-  //   code: 'https://github.com/jainayushee/phone-book',
-  //   demo: '#',
-  //   pill: 'Angular'
-
+  //   path: '/images/airline.png',
+  //   title: 'Airlines',
+  //   description: 'An airline reservation system built using ASP.NET & Angular.',
+  //   code: 'https://github.com/jainayushee3/AirlineReservation_Angular',
+  //   demo: 'http://angula48998r.s3-website.ap-south-1.amazonaws.com/',
+  //   pill: '.NET/Angular'
   // },
   {
     path: '/images/sunny.png',
@@ -33,6 +15,22 @@ const project = [
     code: 'https://github.com/jainayushee/sunny-agency-landing-page',
     demo: 'https://sunny-side-agency-mentor.netlify.app/',
     pill: 'TailwindCSS'
+  },
+  {
+    path: '/images/air.png',
+    title: 'Air Quality Analysis',
+    description: 'Analyzed the trends of air pollution (PM2.5) from 2000 to 2022 in the USA, revealing a reduction in PM2.5 due to ongoing governmental initiatives.',
+    code: 'https://github.com/jainayushee/market-liquidity-clustering',
+    demo: '',
+    pill: 'MachineL'
+  },
+  {
+    path: '/images/market.png',
+    title: 'Market Liquidity Clustering',
+    description: 'Clustering Bloomberg acquired bond securities data using unsupervised K-Means clustering.',
+    code: 'https://github.com/jainayushee/market-liquidity-clustering',
+    demo: '',
+    pill: 'MachineL'
   },
   {
     path: '/images/titanic.png',
